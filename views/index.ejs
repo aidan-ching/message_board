@@ -1,0 +1,19 @@
+<!-- index.ejs -->
+<html>
+
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div>
+        <p>Message board</p>
+        <a href="/new">Post</a>
+    </div>
+    <% messages.forEach(message=> { %>
+        <%- include('message_card', {message: message}) %>
+            <% }); %>
+</body>
+
+</html>

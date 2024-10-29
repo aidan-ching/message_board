@@ -1,0 +1,22 @@
+body{
+    margin-inline: 15%;
+}
+
+.message-card {
+    box-shadow: 0 0 2px black;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+}
+
+.message-card-user {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.message-card-date {
+  font-size: small;
+  margin-bottom: 20px;
+}
